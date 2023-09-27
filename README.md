@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles managed by yadm
+dotfiles repo for linux
