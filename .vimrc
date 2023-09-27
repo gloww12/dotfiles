@@ -1,1 +1,3 @@
-/home/glow/.vimrc
+filetype on
+syntax on
+set number
