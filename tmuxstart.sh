@@ -1,0 +1,1 @@
+/home/glow/tmuxstart.sh
