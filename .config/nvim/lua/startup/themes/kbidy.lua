@@ -45,7 +45,11 @@ local settings = {
         fold_section = false,
         title = "Footer",
         margin = 5,
-        content = { "startup.nvim" },
+        content = {
+"gayass text editor :333",
+"",
+"startup.nvim",
+        },
         highlight = "Number",
         default_color = "",
         oldfiles_amount = 0,
