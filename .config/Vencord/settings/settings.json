@@ -103,7 +103,8 @@
             "blurAmount": 10
         },
         "CallTimer": {
-            "enabled": true
+            "enabled": true,
+            "format": "stopwatch"
         },
         "ClearURLs": {
             "enabled": true
@@ -189,7 +190,7 @@
         "ImageZoom": {
             "enabled": true,
             "size": 100,
-            "zoom": 5.471875000000002,
+            "zoom": 1,
             "nearestNeighbour": false,
             "square": false,
             "saveZoomValues": true,
@@ -497,6 +498,9 @@
         },
         "ClientTheme": {
             "enabled": false
+        },
+        "FixImagesQuality": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -509,6 +513,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1700760751892
+        "settingsSyncVersion": 1701473010180
     }
 }
