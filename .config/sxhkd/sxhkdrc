@@ -120,6 +120,9 @@ super + {Left,Down,Up,Right}
 # Special hotkeys
 #
 
+XF86AudioMedia
+    kitty
+
 # Multimedia keys
 XF86AudioRaiseVolume
   amixer -q set Master 5%+ unmute
