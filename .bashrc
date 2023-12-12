@@ -1,5 +1,5 @@
 # ~/.bashrc
-export TERM="linux"
+export TERM="xterm-kitty"
 [[ $- != *i* ]] && return
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -12,7 +12,8 @@ eval "$(starship init bash)"
 export PATH=/home/glow/.local/bin:$PATH
 export PF_INFO="ascii title os kernel pkgs"
 # export PF_ASCII="Catppuccin"
-export PF_ASCII="Arch"
+# export PF_ASCII="Arch"
+export PF_ASCII="Smol"
 export PF_COL1=4
 export PF_COL3=5
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
