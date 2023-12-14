@@ -1,6 +1,7 @@
 [global]
 frame_color = "#8AADF4"
 separator_color= frame
+font = RobotoMono Nerd Font
 
 [urgency_low]
 background = "#24273A"
