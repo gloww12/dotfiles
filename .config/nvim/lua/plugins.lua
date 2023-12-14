@@ -35,6 +35,10 @@ vim.cmd([[
 
 return require('packer').startup(function(use)
     -- Packer can manage itself
+    use { 
+        'NeogitOrg/neogit',
+        requires = {"nvim-lua/plenary.nvim", "sindrets/diffview.nvim"},
+    }
     use 'wbthomason/packer.nvim'
     use { 'williamboman/mason.nvim' }
     use { 'williamboman/mason-lspconfig.nvim'}
