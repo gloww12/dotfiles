@@ -30,9 +30,9 @@ bspc config active_border_color         "#181926"
 
 #
 # Autostart
-xinput set-prop 10 306 1
-xinput set-prop 11 306 1
-xinput set-prop 12 306 1
+xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 306 1
+xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 335 1
+
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
 # Bar
