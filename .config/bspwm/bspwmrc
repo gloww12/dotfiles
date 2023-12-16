@@ -30,8 +30,9 @@ bspc config active_border_color         "#181926"
 
 #
 # Autostart
-xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 306 1
-xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 335 1
+xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 306 1 &
+xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 333 1 &
+xinput set-prop "PIXA3854:00 093A:0274 Touchpad" 335 1 &
 
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
@@ -50,9 +51,6 @@ picom -b
 # picom -b &
 # Network Applet
 nm-applet --indicator &
-
-# Cursor
-xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
 ~/.config/bspwm/scripts/low_bat_notifier.sh
