@@ -170,7 +170,8 @@
             "enabled": false
         },
         "GameActivityToggle": {
-            "enabled": true
+            "enabled": true,
+            "oldIcon": false
         },
         "GifPaste": {
             "enabled": false
@@ -190,7 +191,7 @@
         "ImageZoom": {
             "enabled": true,
             "size": 100,
-            "zoom": 2.490625,
+            "zoom": 5.92734375,
             "nearestNeighbour": false,
             "square": false,
             "saveZoomValues": true,
@@ -434,7 +435,8 @@
         },
         "TypingIndicator": {
             "enabled": true,
-            "includeMutedChannels": false
+            "includeMutedChannels": false,
+            "includeCurrentChannel": true
         },
         "TypingTweaks": {
             "enabled": true,
@@ -522,6 +524,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1702042981846
+        "settingsSyncVersion": 1703534791493
     }
 }
